@@ -1,0 +1,6 @@
+interface:
+  display_name: "Linux 每周作业助手"
+  short_description: "阅读本地教材、整理蓝桥云课实验，生成每周 Markdown 与 PDF 作业并持续升级"
+  default_prompt: "使用 $linux-weekly-homework 完成本周 Linux 作业，先核对今年要求，负责教材阅读总结，生成 Markdown 和 PDF，并记录本周 skill 改进。"
+policy:
+  allow_implicit_invocation: true
