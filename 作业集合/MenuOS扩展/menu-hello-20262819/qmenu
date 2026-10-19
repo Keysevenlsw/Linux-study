@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+exec qemu-system-x86_64 \
+    -accel tcg \
+    -cpu max \
+    -m 1024 \
+    -kernel "$HOME/LinuxKernel/vmlinuz-menu" \
+    -initrd "$HOME/LinuxKernel/rootfs.img" \
+    -append "console=ttyS0 rdinit=/init ia32_emulation=1" \
+    -nographic
