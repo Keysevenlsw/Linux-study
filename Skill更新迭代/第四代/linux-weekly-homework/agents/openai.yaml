@@ -1,0 +1,6 @@
+interface:
+  display_name: "Linux 每周作业助手"
+  short_description: "检索本地每周要求，逐步截图指导实验，先交 Markdown，审核后按需导出 PDF 或更新技能"
+  default_prompt: "使用 $linux-weekly-homework 从本地博客检索本周作业并结合我发送的要求，跳过 ARM 实践和豆列关注，一步一截图指导实验，完成后先生成 Markdown 供审核，等我另行要求再导出 PDF 或迭代 skill。"
+policy:
+  allow_implicit_invocation: true
